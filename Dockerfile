@@ -1,2 +1,4 @@
 FROM nginx:alpine
-RUN cat ./index.html > /usr/share/nginx/html/index.html
+RUN ``` \
+'<img src="http://memesmix.net/media/created/zipntk.jpg"/>' \
+``` > /usr/share/nginx/html/index.html
