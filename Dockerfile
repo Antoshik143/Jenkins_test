@@ -1,2 +1,2 @@
-FROM nginx
-RUN cat index.html > /usr/share/nginx/html/index.html
+FROM nginx:alpine
+RUN cat ./index.html > /usr/share/nginx/html/index.html
