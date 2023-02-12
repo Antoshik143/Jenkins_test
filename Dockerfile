@@ -1,3 +1,3 @@
-FROM nginx
+FROM nginx:alpine
 COPY . .
-RUN cat indx.html > /usr/share/nginx/html/index.html
+RUN cat index.html > /usr/share/nginx/html/index.html
